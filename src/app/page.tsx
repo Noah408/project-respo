@@ -30,8 +30,14 @@ export default function Home() {
           <span className="text-white text-3xl max-sm:text-xl max-sm:hidden max-sm:flex-none">Scroll for more</span>
         </Link>
       </div>
-      <div className="px-[5%] w-full h-[700px]">
-
+      <div className="px-[5%] w-full h-fit grid grid-cols-2 max-sm:grid-cols-1 max-sm:grid-row-3 grid-flow-row">
+        <div className="h-fit row-span-1 max-sm:row-span-1 bg-green-950">01</div>
+        <div className="h-fit gap-4 row-span-2 max-sm:row-span-1 bg-red-700 flex flex-col">
+          <span className="text-4xl mb-4 max-sm:text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos iure, eos consequatur est deleniti cum id aliquid neque.</span>
+          <span className="text-4xl mb-4 max-sm:text-xl text-white">Autem tenetur commodi maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eligendi fugit, facilis velit reiciendis iure laudantium. Praesentium repellat corrupti dolor sit sint obcaecati. Modi aut quo molestiae a explicabo maiores necessitatibus nemo repellendus architecto? Corrupti numquam ullam nostrum, eveniet at doloribus blanditiis aliquid a est porro aspernatur pariatur culpa soluta nesciunt odio quasi maxime debitis illum.</span>
+          <span className="text-4xl mb-4 max-sm:text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos iure, eos consequatur est deleniti cum id aliquid neque.</span>
+        </div>
+        <div className="h-fit row-span-1 max-sm:row-span-1 mcol-span-2 col-start-1 col-end-2 bg-amber-500">03</div>
       </div>
       <ConsultDay/>
     </div>
