@@ -1,5 +1,5 @@
 import ConsultDay from "@/components/consultday";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Dribbble, Facebook, Instagram, Twitter } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,14 +30,63 @@ export default function Home() {
           <span className="text-white text-3xl max-sm:text-xl max-sm:hidden max-sm:flex-none">Scroll for more</span>
         </Link>
       </div>
-      <div className="px-[5%] w-full h-fit grid grid-cols-2 max-sm:grid-cols-1 max-sm:grid-row-3 grid-flow-row">
-        <div className="h-fit row-span-1 max-sm:row-span-1 bg-green-950">01</div>
-        <div className="h-fit gap-4 row-span-2 max-sm:row-span-1 bg-red-700 flex flex-col">
+      <div className="px-[5%] w-full h-fit grid grid-cols-2 max-sm:grid-cols-1 max-sm:gap-10 max-sm:grid-row-3 grid-flow-row py-44 max-sm:py-24">
+        <div className="h-fit row-span-1 max-sm:row-span-1 gap-4 max-sm:gap-2 flex flex-col">
+          <span className="text-[#ea8f10] max-sm:text-xl text-3xl">About</span>
+          <h1 className="max-sm:text-4xl text-8xl font-serif text-white">An inspiring <br /> headline about <br /> yourself.</h1>
+        </div>
+        <div className="h-fit gap-4 row-span-2 max-sm:row-span-1 flex flex-col">
           <span className="text-4xl mb-4 max-sm:text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos iure, eos consequatur est deleniti cum id aliquid neque.</span>
           <span className="text-4xl mb-4 max-sm:text-xl text-white">Autem tenetur commodi maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eligendi fugit, facilis velit reiciendis iure laudantium. Praesentium repellat corrupti dolor sit sint obcaecati. Modi aut quo molestiae a explicabo maiores necessitatibus nemo repellendus architecto? Corrupti numquam ullam nostrum, eveniet at doloribus blanditiis aliquid a est porro aspernatur pariatur culpa soluta nesciunt odio quasi maxime debitis illum.</span>
           <span className="text-4xl mb-4 max-sm:text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos iure, eos consequatur est deleniti cum id aliquid neque.</span>
         </div>
-        <div className="h-fit row-span-1 max-sm:row-span-1 mcol-span-2 col-start-1 col-end-2 bg-amber-500">03</div>
+        <div className="h-fit row-span-1 max-sm:row-span-1 gap-4 mcol-span-2 col-start-1 col-end-2 flex flex-col">
+          <Link href={"/about"} className="max-sm:w-full w-[350px] h-[100px] max-sm:h-[60px] border border-white bg-[#212722] hover:bg-white text-white hover:text-[#212722] hover:duration-300 rounded-lg flex justify-center items-center text-2xl max-sm:text-xl">More About Me</Link>
+          <ul className="max-sm:w-full  w-[350px] h-fit gap-5 flex justify-center">
+                    <li><Link href={""} className="hover:text-white hover:duration-300"><Facebook  size={40} color="#ffffff" /></Link></li>
+                    <li><Link href={""} className="hover:text-white hover:duration-300"><Twitter size={40} color="#ffffff" /></Link></li>
+                    <li><Link href={""} className="hover:text-white hover:duration-300"><Instagram  size={40} color="#ffffff" /></Link></li>
+                    <li><Link href={""} className="hover:text-white hover:duration-300"><Dribbble  size={40} color="#ffffff" /></Link></li>
+            </ul>
+        </div>
+      </div>
+      <div className="w-full h-fit bg-white py-44 max-sm:gap-6 max-sm:py-24 flex px-[5%] max-sm:flex-col">
+        <div className="w-[50%] max-sm:w-full gap-4 h-fit flex flex-col">
+          <span className="text-[#ea8f10] max-sm:text-xl text-3xl">Expertise</span>
+          <h1 className="max-sm:text-4xl text-8xl font-serif text-[#181818]">My key areas of expertise.</h1>
+          <span className="text-3xl mb-4 max-sm:text-xl w-[70%] text-[#181818] max-sm:py-5 py-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.</span>
+          <Link href={"/services"} className="max-sm:w-full w-[350px] h-[100px] max-sm:h-[60px] border border-[#181818] bg-white text-[#181818] hover:bg-[#181818] hover:text-white  hover:duration-300 rounded-lg flex justify-center items-center text-2xl max-sm:text-xl">View All Services</Link>
+        </div>
+        <div className="w-[50%] max-sm:w-full h-fit flex flex-col gap-14 max-sm:gap-7">
+          <div className="flex flex-col gap-6 max-sm:gap-3 w-full h-fit">
+            <div className="flex items-end gap-2">
+              <span className="text-[#ea8f10] max-sm:text-xl text-3xl">01.</span>
+              <h1 className="max-sm:text-2xl text-4xl font-serif text-[#181818]">Digital Marketing</h1>
+            </div>
+            <span className="text-2xl mb-4 max-sm:text-xl text-[#181818]">Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.</span>
+          </div>
+          <div className="flex flex-col gap-6 max-sm:gap-3 w-full h-fit">
+            <div className="flex items-end gap-2">
+              <span className="text-[#ea8f10] max-sm:text-xl text-3xl">02.</span>
+              <h1 className="max-sm:text-2xl text-4xl font-serif text-[#181818]">Project Management</h1>
+            </div>
+            <span className="text-2xl mb-4 max-sm:text-xl text-[#181818]">Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.</span>
+          </div>
+          <div className="flex flex-col gap-6 max-sm:gap-3 w-full h-fit">
+            <div className="flex items-end gap-2">
+              <span className="text-[#ea8f10] max-sm:text-xl text-3xl">03.</span>
+              <h1 className="max-sm:text-2xl text-4xl font-serif text-[#181818]">Content Marketing</h1>
+            </div>
+            <span className="text-2xl mb-4 max-sm:text-xl text-[#181818]">Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.</span>
+          </div>
+          <div className="flex flex-col gap-6 max-sm:gap-3 w-full h-fit">
+            <div className="flex items-end gap-2">
+              <span className="text-[#ea8f10] max-sm:text-xl text-3xl">04.</span>
+              <h1 className="max-sm:text-2xl text-4xl font-serif text-[#181818]">Research & Discovery</h1>
+            </div>
+            <span className="text-2xl mb-4 max-sm:text-xl text-[#181818]">Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.</span>
+          </div>
+        </div>
       </div>
       <ConsultDay/>
     </div>
