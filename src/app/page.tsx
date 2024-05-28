@@ -25,7 +25,7 @@ export default function Home() {
             <hr className="h-[1px] w-full border-[#ea8f10]"/>
           </div>
         </div>
-        <Link href={""} className="flex items-center absolute bottom-0 max-sm:bottom-44 max-sm:left-7 gap-3">
+        <Link href={"#xp"} className="flex items-center absolute bottom-0 max-sm:bottom-44 max-sm:left-7 gap-3">
           <div className="h-16 w-16 max-sm:h-12 max-sm:w-12 rounded-full border hover:duration-300 hover:border-[#ea8f10] flex justify-center items-center hover:text-[#ea8f10]"><ArrowDown color="#ffffff" size={32} /></div>
           <span className="text-white text-3xl max-sm:text-xl max-sm:hidden max-sm:flex-none">Scroll for more</span>
         </Link>
@@ -50,11 +50,11 @@ export default function Home() {
             </ul>
         </div>
       </div>
-      <div className="w-full h-fit bg-white py-44 max-sm:gap-6 max-sm:py-24 flex px-[5%] max-sm:flex-col">
+      <div id="xp" className="w-full h-fit bg-white py-44 max-sm:gap-6 max-sm:py-24 flex px-[5%] max-sm:flex-col">
         <div className="w-[50%] max-sm:w-full gap-4 h-fit flex flex-col">
           <span className="text-[#ea8f10] max-sm:text-xl text-3xl">Expertise</span>
           <h1 className="max-sm:text-4xl text-8xl font-serif text-[#181818]">My key areas of expertise.</h1>
-          <span className="text-3xl mb-4 max-sm:text-xl w-[70%] text-[#181818] max-sm:py-5 py-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.</span>
+          <span className="text-3xl mb-4 max-sm:text-xl w-[70%] max-sm:w-full text-[#181818] max-sm:py-5 py-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.</span>
           <Link href={"/services"} className="max-sm:w-full w-[350px] h-[100px] max-sm:h-[60px] border border-[#181818] bg-white text-[#181818] hover:bg-[#181818] hover:text-white  hover:duration-300 rounded-lg flex justify-center items-center text-2xl max-sm:text-xl">View All Services</Link>
         </div>
         <div className="w-[50%] max-sm:w-full h-fit flex flex-col gap-14 max-sm:gap-7">

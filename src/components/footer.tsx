@@ -41,7 +41,7 @@ export default function Footer() {
                             Design by <Link href={""} className="text-white hover:duration-300 hover:text-[#ea8f10]">StyleShout</Link> Distribution By <Link href={""} className="text-white hover:duration-300 hover:text-[#ea8f10]">ThemeWagon</Link>
                         </span>
                     </div>
-                    <Link href={"components/navbar.tsx"} className="h-20 w-20 max-sm:h-14 max-sm:w-16 rounded-full border hover:duration-300 hover:border-[#ea8f10] flex justify-center items-center hover:text-[#ea8f10]"><ArrowUp size={32} color="#ffffff" strokeWidth={1.5} /></Link>
+                    <Link href={"#cima"} className="h-20 w-20 max-sm:h-14 max-sm:w-16 rounded-full border hover:duration-300 hover:border-[#ea8f10] flex justify-center items-center hover:text-[#ea8f10]"><ArrowUp size={32} color="#ffffff" strokeWidth={1.5} /></Link>
                 </div>
            </div>
         </footer>
