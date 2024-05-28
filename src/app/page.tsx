@@ -1,4 +1,5 @@
 import ConsultDay from "@/components/consultday";
+import Notice from "@/components/notice";
 import { ArrowDown, Dribbble, Facebook, Instagram, Twitter } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -89,6 +90,18 @@ export default function Home() {
         </div>
       </div>
       <ConsultDay/>
+      <div className="w-full h-fit bg-[#181818] gap-32 flex flex-col py-44 max-sm:py-24 px-[5%]">
+        <div className="w-full h-fit gap-2 flex flex-col items-center text-center">
+          <span className="text-[#ea8f10] max-sm:text-xl text-3xl">Recent Articles</span>
+          <h1 className="font-serif font-bold text-7xl max-sm:text-4xl text-white">Latest articles from my blog.</h1>
+        </div>
+        <div className="grid grid-cols-3 max-sm:grid-cols-1 gap-8 w-full h-fit">
+          <Notice categoria="Sponsored" notices="Need Web Hosting for Your Websites?"/>
+          <Notice categoria="Productivity" notices="5 Marketing Productivity Apps for Your Team"/>
+          <Notice categoria="SEO" notices="7 SEO Factors to Consider for Better Website Ranking"/>
+          <Notice categoria="Productivity" notices="5 Effective Web Design Principles"/>
+        </div>
+      </div>
     </div>
   )
 }
