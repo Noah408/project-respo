@@ -37,9 +37,9 @@ export default function Home() {
           <h1 className="max-sm:text-4xl text-8xl font-serif text-white">An inspiring <br /> headline about <br /> yourself.</h1>
         </div>
         <div className="h-fit gap-4 row-span-2 max-sm:row-span-1 flex flex-col">
-          <span className="text-4xl mb-4 max-sm:text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos iure, eos consequatur est deleniti cum id aliquid neque.</span>
-          <span className="text-4xl mb-4 max-sm:text-xl text-white">Autem tenetur commodi maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eligendi fugit, facilis velit reiciendis iure laudantium. Praesentium repellat corrupti dolor sit sint obcaecati. Modi aut quo molestiae a explicabo maiores necessitatibus nemo repellendus architecto? Corrupti numquam ullam nostrum, eveniet at doloribus blanditiis aliquid a est porro aspernatur pariatur culpa soluta nesciunt odio quasi maxime debitis illum.</span>
-          <span className="text-4xl mb-4 max-sm:text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos iure, eos consequatur est deleniti cum id aliquid neque.</span>
+          <span className="text-3xl mb-4 max-sm:text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos iure, eos consequatur est deleniti cum id aliquid neque.</span>
+          <span className="text-3xl mb-4 max-sm:text-xl text-white">Autem tenetur commodi maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est eligendi fugit, facilis velit reiciendis iure laudantium. Praesentium repellat corrupti dolor sit sint obcaecati. Modi aut quo molestiae a explicabo maiores necessitatibus nemo repellendus architecto? Corrupti numquam ullam nostrum, eveniet at doloribus blanditiis aliquid a est porro aspernatur pariatur culpa soluta nesciunt odio quasi maxime debitis illum.</span>
+          <span className="text-3xl mb-4 max-sm:text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos iure, eos consequatur est deleniti cum id aliquid neque.</span>
         </div>
         <div className="h-fit row-span-1 max-sm:row-span-1 gap-4 mcol-span-2 col-start-1 col-end-2 flex flex-col">
           <Link href={"/about"} className="max-sm:w-full w-[350px] h-[100px] max-sm:h-[60px] border border-white bg-[#212722] hover:bg-white text-white hover:text-[#212722] hover:duration-300 rounded-lg flex justify-center items-center text-2xl max-sm:text-xl">More About Me</Link>
@@ -89,6 +89,16 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="w-full h-fit bg-[#fef6e6] gap-32 flex max-sm:flex-col py-44 max-sm:py-24 px-[5%]">
+        <div className="w-[50%] max-sm:w-[100%] h-fit">
+          <span className="text-[#ea8f10] max-sm:text-xl text-3xl">Clients</span>
+          <h1 className="max-sm:text-4xl text-8xl font-serif text-[#181818]">I have had the privilege of working with these incredible brands.</h1>
+        </div>
+        <div className="w-[50%] max-sm:w-[100%] h-fit flex flex-col gap-10">
+          <span className="text-3xl mb-4 max-sm:text-xl text-[#181818]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, numquam molestiae vel quaerat quas facilis voluptates rerum aspernatur quam voluptatem ea, vitae illo, omnis minus vero minima maiores quia nihil incidunt provident debitis ab qui quasi. Iure unde numquam in nulla praesentium nesciunt dolore exercitationem, odit expedita minima quisquam ullam ex. Aut perferendis vel consectetur modi esse. Temporibus reprehenderit alias magni atque repellat aspernatur voluptates, accusantium pariatur libero ad nesciunt illum labore facere. Earum iure consequatur cumque omnis maiores optio.</span>
+          <span className="text-3xl mb-4 max-sm:text-xl text-[#181818]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, numquam molestiae vel quaerat quas facilis voluptates rerum aspernatur quam voluptatem ea, vitae illo, omnis minus vero minima maiores quia nihil incidunt provident debitis ab qui quasi. Iure unde numquam in nulla praesentium nesciunt dolore exercitationem, odit expedita minima quisquam ullam ex. Aut perferendis vel consectetur modi esse. Temporibus reprehenderit alias magni atque repellat aspernatur voluptates, accusantium pariatur libero ad nesciunt illum labore facere. Earum iure consequatur cumque omnis maiores optio.</span>
+        </div>
+      </div>
       <ConsultDay/>
       <div className="w-full h-fit bg-[#181818] gap-32 flex flex-col py-44 max-sm:py-24 px-[5%]">
         <div className="w-full h-fit gap-2 flex flex-col items-center text-center">
@@ -103,5 +113,5 @@ export default function Home() {
         </div>
       </div>
     </div>
-  )
+  );
 }
