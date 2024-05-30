@@ -105,7 +105,7 @@ export default function Home() {
           <span className="text-[#ea8f10] max-sm:text-xl text-3xl">Recent Articles</span>
           <h1 className="font-serif font-bold text-7xl max-sm:text-4xl text-white">Latest articles from my blog.</h1>
         </div>
-        <div className="grid grid-cols-3 max-sm:grid-cols-1 gap-8 w-full h-fit">
+        <div className="grid grid-cols-3 max-sm:grid-cols-1 gap-12 w-full h-fit">
           <Notice categoria="Sponsored" notices="Need Web Hosting for Your Websites?"/>
           <Notice categoria="Productivity" notices="5 Marketing Productivity Apps for Your Team"/>
           <Notice categoria="SEO" notices="7 SEO Factors to Consider for Better Website Ranking"/>
