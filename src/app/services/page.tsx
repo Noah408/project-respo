@@ -8,7 +8,7 @@ export default function Services(){
                 <span className="text-[#ea8f10] text-4xl mb-4 max-sm:text-2xl">Services</span>
                 <h1 className="font-serif font-bold text-9xl max-sm:text-5xl text-white">High-Impact Services</h1>
             </div>
-            <div className="bg-white w-full h-fit flex flex-col items-center gap-10 py-44 max-sm:gap-6 max-sm:py-24">
+            <div className="bg-white w-full h-fit flex flex-col items-center gap-32 py-44 max-sm:gap-16 max-sm:py-24">
                 <div className="w-full h-fit flex max-sm:flex-col max-sm:gap-10 px-[5%]">
                     <div className="w-[50%] max-sm:w-full h-fit max-sm:text-center">
                         <h1 className="max-sm:text-4xl text-8xl font-bold font-serif text-[#181818]">High-impact <br /> services to help <br /> your business</h1>
@@ -27,7 +27,6 @@ export default function Services(){
                     <Tabela/>
                     <Tabela/>
                     <Tabela/>
-                    <div></div>
                 </div>
             </div>
             <ConsultDay/>
